@@ -14,15 +14,10 @@ The repository contains two Python programs designed to address the problem of g
 
 Both approaches are analyzed for their effectiveness in reducing the number of iterations needed to achieve a conflict-free coloring.
 
-## Getting Started
+
 
 ### Dependencies
 
 - Python 3.x
 - NetworkX
 - matplotlib
-
-### Running the Programs
-
-Clone this repository and install the required dependencies:
-
