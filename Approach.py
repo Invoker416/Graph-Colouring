@@ -6,7 +6,6 @@ import numpy as np
 def create_2d_lattice(m, n):
     
     #Create a 2D lattice of size m x n.
-    
     G = nx.grid_2d_graph(m, n, periodic=False)
     # Convert to a regular graph from a grid graph for easier manipulation
     G = nx.convert_node_labels_to_integers(G)
